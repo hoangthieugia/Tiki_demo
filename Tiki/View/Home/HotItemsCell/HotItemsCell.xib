@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="HotItemsCell" id="iN0-l3-epB" customClass="HotItemsCell" customModule="Tiki" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="334" height="225"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Từ Khoá Hot" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WTq-Xm-hjk">
+                    <rect key="frame" x="16" y="0.0" width="302" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="5VB-0n-B5T"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Ako-PE-JBQ">
+                    <rect key="frame" x="0.0" y="40" width="334" height="185"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="185" id="8a2-kK-6jU"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="7ny-sI-04M">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Ako-PE-JBQ" firstAttribute="top" secondItem="WTq-Xm-hjk" secondAttribute="bottom" id="3T3-5Z-IbF"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Ako-PE-JBQ" secondAttribute="bottom" id="4Ho-Bg-3Bw"/>
+                <constraint firstItem="Ako-PE-JBQ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="4MG-MD-Vru"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Ako-PE-JBQ" secondAttribute="trailing" id="GP7-1F-jbL"/>
+                <constraint firstItem="WTq-Xm-hjk" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="VCI-A0-RrI"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="WTq-Xm-hjk" secondAttribute="trailing" constant="16" id="a6g-vA-aSk"/>
+                <constraint firstItem="WTq-Xm-hjk" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="a81-6V-tSH"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="hotItemCollectionView" destination="Ako-PE-JBQ" id="ih7-1l-TjV"/>
+            </connections>
+            <point key="canvasLocation" x="33.600000000000001" y="-81.859070464767626"/>
+        </view>
+    </objects>
+</document>
