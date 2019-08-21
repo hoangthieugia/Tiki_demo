@@ -13,10 +13,11 @@ extension UIStoryboard {
     //MARK: Home Storyboard
     class func homeStoryboard() -> UIStoryboard {
         return UIStoryboard(name: "Home", bundle: Bundle.main)
+        
     }
     
     class func homeViewController() -> HomeViewController? {
         return homeStoryboard().instantiateViewController(withIdentifier: "HomeViewController") as? HomeViewController
-    } wers
+    }
     
 }
