@@ -26,6 +26,7 @@
 		0427D7582269DE7000DAD499 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0427D7572269DE7000DAD499 /* Home.storyboard */; };
 		0427D75A2269DEB100DAD499 /* ManagerStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427D7592269DEB100DAD499 /* ManagerStoryBoard.swift */; };
 		0427D75E2269E3F400DAD499 /* HotItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427D75C2269E3F400DAD499 /* HotItemCell.swift */; };
+		0479D019230CFC3100C65D69 /* .travis.ym in Sources */ = {isa = PBXBuildFile; fileRef = 0479D018230CFC3100C65D69 /* .travis.ym */; };
 		498FDE059422993B8B8F50CD /* Pods_Tiki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8941C17BEE1BA5C2A46DB4B /* Pods_Tiki.framework */; };
 		653888D3590059888AFFAB3A /* Pods_TikiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20DD791B43C7C0A4D1411C32 /* Pods_TikiTests.framework */; };
 /* End PBXBuildFile section */
@@ -64,6 +65,7 @@
 		0427D7572269DE7000DAD499 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		0427D7592269DEB100DAD499 /* ManagerStoryBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerStoryBoard.swift; sourceTree = "<group>"; };
 		0427D75C2269E3F400DAD499 /* HotItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotItemCell.swift; sourceTree = "<group>"; };
+		0479D018230CFC3100C65D69 /* .travis.ym */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.yacc; path = .travis.ym; sourceTree = "<group>"; };
 		20DD791B43C7C0A4D1411C32 /* Pods_TikiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TikiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BB3A0740DFBA7C4FC8172D3 /* Pods-Tiki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiki.release.xcconfig"; path = "Target Support Files/Pods-Tiki/Pods-Tiki.release.xcconfig"; sourceTree = "<group>"; };
 		5BB2694BFAC98B63FF6F8EE3 /* Pods-TikiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikiTests.release.xcconfig"; path = "Target Support Files/Pods-TikiTests/Pods-TikiTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				0427D72C2269DAB500DAD499 /* Assets.xcassets */,
 				0427D72E2269DAB500DAD499 /* LaunchScreen.storyboard */,
 				0427D7312269DAB500DAD499 /* Info.plist */,
+				0479D018230CFC3100C65D69 /* .travis.ym */,
 			);
 			path = Tiki;
 			sourceTree = "<group>";
@@ -470,6 +473,7 @@
 				0427D7552269DC0600DAD499 /* HotItemViewModel.swift in Sources */,
 				02483ECF226A2C66003CAD57 /* StringExtension.swift in Sources */,
 				02483ECD226A2981003CAD57 /* UIColorExtension.swift in Sources */,
+				0479D019230CFC3100C65D69 /* .travis.ym in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
