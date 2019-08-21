@@ -22,6 +22,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         setupViews()
         getHotItems()
+        print("abc")
         // Do any additional setup after loading the view.
     }
     
