@@ -17,6 +17,6 @@ extension UIStoryboard {
     
     class func homeViewController() -> HomeViewController? {
         return homeStoryboard().instantiateViewController(withIdentifier: "HomeViewController") as? HomeViewController
-    } werssss
+    }
     
 }
